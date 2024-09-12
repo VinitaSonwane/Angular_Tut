@@ -1,0 +1,35 @@
+<h3>*NgIf Example</h3>
+
+
+<h3> *NgIf with Else part </h3>
+<div *ngIf="show;else elseBlock; ">
+    <p>This is para one . Show this para if value is true </p>
+</div>
+
+<ng-template #elseBlock>
+    <div>
+        <p>This is para two . Show this para if value is false </p>
+    </div>
+</ng-template>
+
+<hr>
+<h3> *NgFor Example </h3>
+<!--<div *ngFor="let i of players">
+
+<p>{{i.pname}} {{i.city}} {{i.runs}} {{i.team}}</p>
+</div> -->
+
+<table>
+    <tr>
+        <th>Player Name</th>
+        <th>City</th>
+        <th> runs</th>
+        <th>Team</th>
+    </tr>
+    <tr *ngFor="let i of players">
+        <td>{{i.pname}}</td>
+        <td>{{i.city}}</td>
+        <td>{{i.runs}}</td>
+        <td>{{i.team}}</td>
+    </tr>
+</table>

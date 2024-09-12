@@ -1,0 +1,35 @@
+<h3>Data Binding Examples</h3>
+<hr>
+
+<h3>Apply Style Binding</h3>
+
+<p [style.color]="mycolor"> Apply Style Dynamically to HTML Element using Style Binding</p>
+<p [ngStyle]="newStyle">Apply multiple styles using data binding </p>
+<hr>
+<h3>Apply Class Binding</h3>
+<p [class]="myClass"> Apply class styles dynamically to an html element using class Binding</p>
+<p [class]="myClass1">Apply warning color</p>
+<p [class]="myClass2">Apply danger color</p>
+<p [class]="myClass3">Apply primary color</p>
+<hr>
+<h3>Apply Property Binding</h3>
+<img [src]="imgPath">
+<img [src]="imgPath1">
+<img [src]="imgPath2">
+
+
+<h1 [innerHTML]="txt"></h1>
+<input type="text" [value]="txt1">
+<hr>
+<h3>Two Way Data Binding</h3>
+<div style="text-align: center;">
+    <input type="text" placeholder="Enter your Name" [(ngModel)]="modelVal">
+    <h4>Your Name :- {{modelVal}}</h4>
+</div>
+<hr>
+<div style="text-align: center;">
+    <h3>Two Way Data Binding Example</h3>
+    <input type="number" [(ngModel)]='a'>
+    <input type="number" [(ngModel)]='b'>
+    <p> Answer :-{{a+b}} </p>
+</div>

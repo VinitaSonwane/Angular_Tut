@@ -5,16 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirstCompComponent } from './first-comp/first-comp.component';
 import { SecondCompComponent } from './second-comp/second-comp.component';
+import { DataBindingComponent } from './data-binding/data-binding.component';
+import { FormsModule } from '@angular/forms';
+import { DirectiveCompComponent } from './directive-comp/directive-comp.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstCompComponent,
-    SecondCompComponent
+    SecondCompComponent,
+    DataBindingComponent,
+    DirectiveCompComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

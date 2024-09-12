@@ -1,0 +1,33 @@
+h3{
+    text-align : center;
+    color : blue;
+}
+
+.sucess
+{
+    color:green;
+    text-align : center;
+}
+
+.warning
+{
+    color : yellow;
+    text-align : center;
+}
+
+.danger
+{
+    color:red;
+    text-align : center;
+}
+
+.primary
+{
+    color:blue;
+    text-align : center;
+}
+img{
+    width:300px;
+    height:200px;
+    margin-right:100px
+}
