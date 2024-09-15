@@ -8,6 +8,7 @@ import { SecondCompComponent } from './second-comp/second-comp.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { FormsModule } from '@angular/forms';
 import { DirectiveCompComponent } from './directive-comp/directive-comp.component';
+import { Task1Component } from './task1/task1.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DirectiveCompComponent } from './directive-comp/directive-comp.componen
     FirstCompComponent,
     SecondCompComponent,
     DataBindingComponent,
-    DirectiveCompComponent
+    DirectiveCompComponent,
+    Task1Component
   ],
   imports: [
     BrowserModule,
